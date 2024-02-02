@@ -4,15 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js" defer></script>
     <title>Exercício de Fixação</title>
 </head>
 <body>
     <form>
-        <input placeholder="digite seu novo item" />
-        <button>Clique para inserir</button>   
+        <input placeholder="digite seu novo item" id="input"/>
+        <button type="button" onclick="inserirItem()">Clique para inserir</button>   
     </form>
 
-    <ul>
+    <ul id="lista">
         <li>Tomate</li>
         <li>Abóbora</li>
         <li>Carambola</li>
